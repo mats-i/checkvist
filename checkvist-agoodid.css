@@ -1,0 +1,337 @@
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+span.contextUnder {
+    color: #999 !important;
+    padding: 2px 0 6px 0;
+}
+
+h1Id {
+margin-right: auto;
+font-weight: 600;
+text-shadow: none;
+}
+
+h1 {
+font-size: 14px;
+padding: 0;
+clear: right;
+margin: 0 0 15px 0;
+}
+
+ul.checklists li.list_item .checklistName {
+font-size: 14px;
+padding-left: .5em;
+font-weight: 400;
+font-family: 'Lato', sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+ul.topLevel li.task, ul.topLevel ul li.task {
+
+}
+
+.tag_important .userContent {
+font-weight: 600; /* Bolder text /
+color: darkorange; / Brighter color */
+}
+
+ul.topLevel li.task, ul.topLevel ul li.task {
+font-size: 14px; /* Makes all lines the same size /
+/ font-weight: 400; and weight */
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.list-h1 {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.tag, input, textarea, html, body, .main_div {
+font-family: 'Lato', sans-serif !important;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+ul.topLevel li.task { line-height: 1.1; margin:0; }
+div.coreDiv, .editable { padding-top: 1px; padding-bottom: 1px;}
+
+.userContent h2 {
+font-size: 21px;
+}
+
+span.node_text.editableList.userContent img {
+display: none;
+}
+
+dueList .listNameNode .node_text a {
+/* font-size: 22px; */
+font-weight: 600;
+}
+button.newbut {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+border: none;
+background-color: #fff;
+color: #999;
+}
+
+strong, b {
+font-weight: 600;
+}
+
+img.logoImg {
+border: none;
+width: 140px;
+}
+
+.selectedTask_focus > div.coreDiv, li.comment.selectedTask_focus div.coreNote, li.upload.selectedTask_focus {
+border-color: rgb(199, 222, 237);
+border: 0px solid red;
+}
+
+div.coreDiv.selectedTask, ul.comments li.comment.selectedTask div.coreNote {
+background-color: rgb(215, 239, 255);
+}
+
+/* custom style for "done" items /
+span.task_closed {
+text-decoration: none;
+}
+span.task_closed {
+color: #999;
+}
+span.task_closed:before {
+content: "\F00C"; / A 'check' icon from the Font Awesome library /
+font-family: FontAwesome;
+font-size: 13px; / Smaller than the text /
+padding-right: 5px;
+color: #999; / Of a lighter color */
+}
+
+
+
+.tag.tag_notes:before,
+.tag.tag_question:before,
+.tag.tag_answer:before,
+.tag.tag_research:before,
+.tag.tag_wireframe:before,
+.tag.tag_mockup:before,
+.tag.tag_future:before,
+.tag.tag_bug:before,
+.tag.tag_done:before {
+font-family: FontAwesome;
+font-size: 1em;
+visibility: visible;
+}
+
+.tag.tag_notes:before {content:"\f15c";}
+.tag.tag_question:before {content:"\f059";}
+.tag.tag_answer:before {content:"\f0eb";}
+.tag.tag_research:before {content:"\f002";}
+.tag.tag_wireframe:before {content:"\f044";}
+.tag.tag_mockup:before {content:"\f1fc";}
+.tag.tag_future:before {content:"\f04e";}
+.tag.tag_bug:before {content:"\f188";}
+.tag.tag_done:before {content:"\f046";}
+
+.tag_dokument .userContent {
+font-weight: 600; /* Bolder text */
+}
+
+.tag_dokument .userContent:before {
+content: "\f07b"; /* An icon from the Font Awesome library */
+font-family: FontAwesome;
+font-size: 14px;
+padding-right: 5px;
+}
+
+.tag_ref .userContent {
+font-weight: 600; /* Bolder text */
+}
+
+.tag_ref .userContent:before {
+content: "\f06e"; /* An icon from the Font Awesome library */
+font-family: FontAwesome;
+font-size: 14px;
+padding-right: 5px;
+}
+
+.tag_tasks .userContent {
+font-weight: 600; /* Bolder text */
+}
+
+.tag_tasks .userContent:before {
+content: "\f0ae"; /* An icon from the Font Awesome library */
+font-family: FontAwesome;
+font-size: 14px;
+padding-right: 5px;
+}
+
+.tag_område .userContent {
+font-weight: 600; /* Bolder text */
+}
+
+.tag_område .userContent:before {
+content: "\f005"; /* An icon from the Font Awesome library */
+font-family: FontAwesome;
+font-size: 14px;
+padding-right: 5px;
+}
+
+.tag_projekt .userContent {
+font-weight: 600; /* Bolder text */
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+.tag_projekt .userContent:before {
+content: "\f058"; /* An icon from the Font Awesome library */
+font-family: FontAwesome;
+font-size: 14px;
+padding-right: 5px;
+}
+
+.tag_kund .userContent:before {
+content: "\f0b1"; 
+font-family: FontAwesome;
+font-size: 14px;
+padding-right: 5px;
+}
+
+
+.tag_roadmap .userContent {
+font-weight: 600; /* Bolder text */
+}
+
+.tag_roadmap .userContent:before {
+content: "\f0ca"; /* An icon from the Font Awesome library */
+font-family: FontAwesome;
+font-size: 14px;
+padding-right: 5px;
+}
+
+.tag_m-notes .userContent:before {
+content: "\f086"; /* An icon from the Font Awesome library */
+font-family: FontAwesome;
+font-size: 14px;
+padding-right: 5px;
+}
+
+/* The following section is required to fix case when icon is used with numbered lists /
+.numberedList .tag_projekt .userContent:before {
+content: counters(section, ".") ". \f07b"; / Same icon code as in previous section */
+}
+
+.tag_möte  .userContent {
+}
+
+.tag_möte  .userContent:before {
+  content: "\F133"; /* An icon from the Font Awesome library */
+  font-family: FontAwesome;
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+/* The following section is required to fix case when icon is used with numbered lists */
+.numberedList .tag_möte .userContent:before {
+    content: counters(section, ".") ". \F06A"; /* Same icon code as in previous section */
+}﻿
+
+span.bg1 {
+    background-color: yellow !important;
+}
+
+.tag_support  .userContent {
+
+}
+
+.tag_support  .userContent:before {
+  content: "\f0f9"; /* An icon from the Font Awesome library */
+  font-family: FontAwesome;
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+/* The following section is required to fix case when icon is used with numbered lists */
+.numberedList .tag_möte .userContent:before {
+    content: counters(section, ".") ". \F06A"; /* Same icon code as in previous section */
+}﻿
+
+div.coreDiv.selectedTask, ul.comments li.comment.selectedTask div.coreNote {
+    background-color: rgb(230, 255, 255);
+}
+
+.selectedTask_focus > div.coreDiv, li.comment.selectedTask_focus div.coreNote, li.upload.selectedTask_focus {
+    border-color: rgb(230, 255, 255);
+    border: 0px solid red;
+}
+
+.toolbarDiv {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+    height: 33px;
+    margin-bottom: 20px;
+}
+
+.toolBar {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+    font-size: 13px;
+    height: 33px;
+    line-height: 33px;
+    color: #333;
+    text-shadow: 0 1px 0 white;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.tag_hus .userContent {
+font-weight: 600; /* Bolder text */
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+.tag_hus .userContent:before {
+content: "\f015"; /* An icon from the Font Awesome library */
+font-family: FontAwesome;
+font-size: 14px;
+padding-right: 5px;
+}
+
+.tagClass_0, a.tagClass_0 {
+    background-color: transparent;
+    color: #999;
+    border: none;
+}
+
+span#header_span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.userContent h1 {
+    font-size: 18px;
+}
+
+.zenBgImage {
+    background-image: none;
+    background-color: #fdf4dc;
+   background-color: #fff;
+
+.toolBar.toolBar--flex.toolBar--list.content {
+    background-color: transparent;
+}
+
+.additionalText, .updLine, .updLine a, .dueDate {
+    color: #999;
+}
+
+.renderedImages {
+    background: #ccc;
+    padding: 16px 0 !important;
+}
+
+
+.renderedImages img {
+    width: 96% !important;
+    margin: auto !important;
+}
